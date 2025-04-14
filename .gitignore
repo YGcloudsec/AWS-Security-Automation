@@ -1,0 +1,18 @@
+# AWS credentials
+.aws/
+
+# Terraform state and provider files
+terraform/.terraform
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+
+# Python virtual environment
+python-cli/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Demo folder (optional, if large files)
+# demo/
