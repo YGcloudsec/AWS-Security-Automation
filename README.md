@@ -10,7 +10,10 @@ A project to deploy secure AWS infrastructure with Terraform and validate it usi
 
 ## Setup (Windows)
 1. **Prerequisites**:
-   - AWS CLI, Terraform, Python 3.8+, Git.
+   - **AWS CLI**: Install from `https://aws.amazon.com/cli/`.
+   - **Terraform**: Download from `https://www.terraform.io/downloads.html`, unzip, and place `terraform.exe` in `terraform/` or add to your PATH.
+   - **Python 3.8+**: Install from `https://www.python.org/downloads/`.
+   - **Git**: Install from `https://git-scm.com/download/win`.
    - AWS account with AdministratorAccess IAM user.
 2. **Deploy Infrastructure**:
    ```cmd
